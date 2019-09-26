@@ -1,0 +1,16 @@
+What do I want my app to do?
+
+MVP
+-Take User Input:  Artist and Song
+-Update DOM with Lyrics using api.lyrics.ovh
+Got it done! 9/26/19 2:30PM
+
+
+Final
+-User inputs an artist and song
+-How do I get the artists picture? Update DOM with Artist Picture
+-API Update DOM with Lyrics  api.lyrics.ovh  artist & song
+-Update DOM with Record Label Information
+-What API can I use? Update DOM with music link
+
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mini Front-End Project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <!-- TODO: Shouldn't allow user to submit blank query -->
+</head>
+<body>
+  <section>
+    <div class="level">
+      <form class="form" id="form">
+        <div class="field">
+          <label class="label">Artist</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Choose an artist" id="artistValue">
+          </div>
+        </div>
+        <div class="field">
+            <label class="label">Song</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Choose a song" id="songValue">
+            </div>
+          </div>
+        <div class="buttons">
+          <button class="button is-primary">Submit</button>
+          <button class="button is-warning" id="clearForm">Clear</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <section>
+      <div class="container">
+        <h1 class="title">Lyrics</h1>
+        <div class="content" id="lyricsContainer">
+        </div>
+      </div>
+  </section>
+  <script src="scripts/get.js"></script>
+  <script src="scripts/index.js"></script>
+</body>
+</html>
