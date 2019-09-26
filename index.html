@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Mini Front-End Project</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  <link rel="stylesheet" href="styles/index.css">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <!-- TODO: Shouldn't allow user to submit blank query -->
 </head>
@@ -33,11 +34,16 @@
     </div>
   </section>
   <section>
-      <div class="container">
-        <h1 class="title">Lyrics</h1>
-        <div class="content" id="lyricsContainer">
+    <div class="level">
+      <div class="card">
+        <header class="card-header">
+          <p class="card-header-title">Lyrics</p>
+        </header>
+        <div class="card-content">
+          <div class="content" id="lyricsContainer"></div>
         </div>
       </div>
+    </div>
   </section>
   <script src="scripts/get.js"></script>
   <script src="scripts/index.js"></script>
