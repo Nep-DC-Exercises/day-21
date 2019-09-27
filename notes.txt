@@ -15,7 +15,7 @@ Back Log
 -Update DOM with music link
 
 
-Application name 	Music Lyric App
-API key 	fd6175981bf9ded57c3c11cc5008d8fe
-Shared secret 	2f987528a44aa0bbe5383cf9a98511fd
-Registered to 	norshiso
+Notes:
+
+I could probably re-write the README and maybe include a little screenshot when it's completed
+Need to style this content 
