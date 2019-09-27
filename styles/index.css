@@ -1,7 +1,18 @@
-.card {
-    width: 500px;
+html {
+    background-color: #3d425a;
 }
 
+body {
+    padding: 2rem;
+}
+.card {
+    width: 500px;
+    background-color: #fdf6e6;
+}
+
+.input  {
+    background-color: #e6e1dd;
+}
 .card-content {
     max-height: 500px;
     overflow-y: scroll;

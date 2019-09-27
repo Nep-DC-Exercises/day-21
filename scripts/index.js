@@ -10,9 +10,10 @@ let artistImage = document.getElementById("artistImage");
 
 form.addEventListener("submit", function(event) {
     event.preventDefault();
-    let artistValue = artist.value
-    let songValue = song.value
-
+    let artistValue = artist.value.toString()
+    let songValue = song.value.toString()
+    console.log(artistValue)
+    console.log(songValue)
     if (artist.value == "" || song.value == "") {
         alert("Please don't leave the artist or song field blank!")
     } else {

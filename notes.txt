@@ -4,18 +4,17 @@ MVP
 -Take User Input:  Artist and Song
 -Update DOM with Lyrics using api.lyrics.ovh
 Got it done! 9/26/19 2:30PM
+-Update DOM with Artist Picture 9/26/19 8:39PM
 
 
 In progress
--Update DOM with Artist Picture
+-Update DOM with music link that allows user to play music
 
 
 Back Log
+-Style content!
 -Update DOM with Record Label Information
--Update DOM with music link
 
 
 Notes:
-
-I could probably re-write the README and maybe include a little screenshot when it's completed
-Need to style this content 
+after completion re-write the README and maybe include a little screenshot when it's completed

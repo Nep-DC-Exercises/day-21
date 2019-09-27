@@ -10,30 +10,45 @@
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 <body>
-  <section>
-    <div class="level">
-      <form class="form" id="form">
-        <div class="field">
-          <label class="label">Artist</label>
-          <div class="control">
-            <input class="input" type="text" placeholder="Choose an artist" id="artistValue">
-          </div>
-        </div>
-        <div class="field">
-            <label class="label">Song</label>
-            <div class="control">
-              <input class="input" type="text" placeholder="Choose a song" id="songValue">
+  <div class="columns">
+    <div class="column is-one-third">
+      <div class="card">
+        <header class="card-header">
+            <p class="card-header-title">Search for your favorite lyrics!</p>
+        </header>
+        <div class="card-content">
+          <form class="form" id="form">
+            <div class="field">
+              <label class="label">Artist</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="Choose an artist" id="artistValue">
+              </div>
             </div>
-          </div>
-        <div class="buttons">
-          <button class="button is-primary">Submit</button>
-          <button class="button is-warning" id="clearForm">Clear</button>
+            <div class="field">
+                <label class="label">Song</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="Choose a song" id="songValue">
+                </div>
+              </div>
+            <div class="buttons">
+              <button class="button is-primary">Submit</button>
+              <button class="button is-warning" id="clearForm">Clear</button>
+            </div>
+          </form>
         </div>
-      </form>
+      </div>
     </div>
-  </section>
-  <section>
-    <div class="level">
+    <div class="column">
+      <div class="card">
+        <header class="card-header">
+          <p class="card-header-title">Artist</p>
+        </header>
+        <div class="card-content">
+          <img id="artistImage" src="">
+        </div>
+      </div>
+    </div> 
+    <div class="column">
       <div class="card">
         <header class="card-header">
           <p class="card-header-title">Lyrics</p>
@@ -43,14 +58,7 @@
         </div>
       </div>
     </div>
-  </section>
-  <section>
-    <div class="card">
-      <div class="card-content">
-        <img id="artistImage" src="">
-      </div>
-    </div>
-  </section>
+  </div>
   <script src="scripts/artist.js"></script>
   <script src="scripts/get.js"></script>
   <script src="scripts/index.js"></script>

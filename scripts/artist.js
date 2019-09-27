@@ -4,7 +4,7 @@
 
 // This token expires so need to request a new one constantly
 
-let accessToken = 'Bearer BQAYZFPAjjwJp0b_cZNzKrdoY111wprC-NeNg1Qar4K3qK5wwkB5piDWdaZtWHKStUPsxoWtJPy6yxC6VO10h89XHzisRByVj8hk0zItVisO5cwH6zyMz2abpSG4xMLtyS2pT88_Zv22j-J9'
+let accessToken = 'Bearer BQBVD3qRwx5OEDdAqqyHqnEv9RbfMKVziZAJwVv3COpU1Yfs7rNSHRLo3aNIAt6YS-3T3gElGgAfWYw_ZYHILoiyhvPhBVma70AvSx94bx362ukMAPTtmH3ZLZjYMNA7v0D_c2MX-spoyZ2Q'
 
 function grabArtists(artist, token) {
     let url = `https://api.spotify.com/v1/search?q=${artist}&type=artist`; 
