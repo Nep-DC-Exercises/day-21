@@ -6,11 +6,16 @@ MVP
 Got it done! 9/26/19 2:30PM
 
 
-Final
--User inputs an artist and song
--How do I get the artists picture? Update DOM with Artist Picture
--API Update DOM with Lyrics  api.lyrics.ovh  artist & song
+In progress
+-Update DOM with Artist Picture
+
+
+Back Log
 -Update DOM with Record Label Information
--What API can I use? Update DOM with music link
+-Update DOM with music link
 
 
+Application name 	Music Lyric App
+API key 	fd6175981bf9ded57c3c11cc5008d8fe
+Shared secret 	2f987528a44aa0bbe5383cf9a98511fd
+Registered to 	norshiso

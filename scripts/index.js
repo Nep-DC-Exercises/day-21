@@ -6,6 +6,7 @@ let url = `https://api.lyrics.ovh/v1/${artist}/${song}`
 let lyricsBox = document.getElementById("lyricsContainer")
 let clearBtn = document.getElementById("clearForm")
 let apology = "Oops! Something went wrong. Please try again!"
+let artistImage = document.getElementById("artistImage");
 
 form.addEventListener("submit", function(event) {
     event.preventDefault();
@@ -17,6 +18,7 @@ form.addEventListener("submit", function(event) {
     } else {
         let queryURL = formatLyricsUrl(artistValue, songValue);
         updateLyrics(queryURL)
+        grabArtists(artistValue, accessToken)
     }
 })
 
@@ -24,6 +26,7 @@ clearBtn.addEventListener("click", function(event){
     event.preventDefault();
     artist.value = ""
     song.value = ""
+    artistImage.src = ""
     lyricsBox.innerHTML = ""
 })
 
@@ -45,9 +48,16 @@ function updateLyrics(url) {
     })
 }
 
+function updateArtistPicture(imgSrc) {
+    artistImage.setAttribute('src', imgSrc)
+}
+
+
+
 (function () {
     let hotUrl = 'https://api.lyrics.ovh/v1/red hot chili peppers/otherside/'
     artist.value = 'Red Hot Chili Peppers'
     song.value = 'Otherside'
     updateLyrics(hotUrl)
+    grabArtists(artist.value, accessToken);
 })();
